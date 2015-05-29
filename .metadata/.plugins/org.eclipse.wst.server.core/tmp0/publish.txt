@@ -1,3 +1,5 @@
 #Tomcat publish data
-#Mon Apr 27 22:01:33 CST 2015
+#Fri May 29 22:13:59 CST 2015
+org.eclipse.jst.jee.server\:chapter_four=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\chapter_four
+org.eclipse.jst.j2ee.server\:GoosSingle=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\GoosSingle
 org.eclipse.jst.jee.server\:FirstJsp=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\FirstJsp

@@ -1,0 +1,29 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8" language = "java"%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+	留言板
+  </head>
+  
+  <body>
+     <center>
+     	<form>
+     	
+     			<tr height = "30">
+     				<td>
+     					<form id = "form1" name = "form1"  method = "post" action = "login_deal.jsp" >
+     						用户名
+     						<input name = "username" type = "text"     id = username "/>
+     						密&nbsp&nbsp码
+     						<input name = "pwd" 	 type = "password" id = "pwd" >
+     						<input typt = "submit"   name = "submit"   value = "提交"/>
+     						<input typt = "seset"    name = "submit2"   value = "重置"/>
+     					</form>
+     				</td>
+     			</tr>
+     	
+     	</form>
+     </center>
+  </body>
+</html>

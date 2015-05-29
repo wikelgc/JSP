@@ -128,7 +128,7 @@
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
         -->
 
-      <Context docBase="FirstJsp" path="/FirstJsp" reloadable="false" source="org.eclipse.jst.jee.server:FirstJsp"/></Host>
+      <Context docBase="FirstJsp" path="/FirstJsp" reloadable="false" source="org.eclipse.jst.jee.server:FirstJsp"/><Context docBase="chapter_four" path="/chapter_four" reloadable="false" source="org.eclipse.jst.jee.server:chapter_four"/><Context docBase="GoosSingle" path="/GoosSingle" reloadable="false" source="org.eclipse.jst.j2ee.server:GoosSingle"/></Host>
     </Engine>
   </Service>
 </Server>

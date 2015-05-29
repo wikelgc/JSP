@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;chapter_four/src/com/wgh/bean/Mytools.jsp&apos;" deleteContents="false" description="Delete resource &apos;chapter_four/src/com/wgh/bean/Mytools.jsp&apos;" element1="/chapter_four/src/com/wgh/bean/Mytools.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1432890667964"/>
+</session>
