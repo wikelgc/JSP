@@ -12,12 +12,41 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Fri, 29 May 2015 12:40:57 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 30 May 2015 19:38:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=4.2.2</generator>
 	<item>
+		<title>MyEclipse 2015 Stable 2.0 &#8211; Web Tools for Java EE Developers</title>
+		<link>https://www.genuitec.com/2015-stable-2-myeclipse/</link>
+		<comments>https://www.genuitec.com/2015-stable-2-myeclipse/#comments</comments>
+		<pubDate>Fri, 29 May 2015 14:31:37 +0000</pubDate>
+		<dc:creator><![CDATA[LaraStrain]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Application Development]]></category>
+		<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Eclipse Developer]]></category>
+		<category><![CDATA[Eclipse Java]]></category>
+		<category><![CDATA[Eclipse Luna]]></category>
+		<category><![CDATA[Emmet]]></category>
+		<category><![CDATA[Ionic]]></category>
+		<category><![CDATA[Java EE]]></category>
+		<category><![CDATA[Java EE development]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[PhoneGap]]></category>
+		<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[WebSphere]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=391661</guid>
+		<description><![CDATA[<p>After 4 months of arduous work, MyEclipse 2015 Stable 2 [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/2015-stable-2-myeclipse/">MyEclipse 2015 Stable 2.0 &#8211; Web Tools for Java EE Developers</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/2015-stable-2-myeclipse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>MyEclipse 2015 CI 13 Introduces the Minimap</title>
 		<link>https://www.genuitec.com/me-2015-ci13-release/</link>
 		<comments>https://www.genuitec.com/me-2015-ci13-release/#comments</comments>
@@ -277,30 +306,14 @@
 		<wfw:commentRss>https://www.genuitec.com/ci12-myeclipse2015/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>GapDebug Twitter Chat!</title>
-		<link>https://www.genuitec.com/gapdebug-twitter-chat/</link>
-		<comments>https://www.genuitec.com/gapdebug-twitter-chat/#comments</comments>
-		<pubDate>Wed, 25 Mar 2015 13:20:51 +0000</pubDate>
-		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
-				<category><![CDATA[GapDebug]]></category>
-		<category><![CDATA[Mobile]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=30023</guid>
-		<description><![CDATA[<p>It&#8217;s time for the next Genuitec GapDebug Twitter  [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/gapdebug-twitter-chat/">GapDebug Twitter Chat!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		<wfw:commentRss>https://www.genuitec.com/gapdebug-twitter-chat/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using disk: enhanced
-Database Caching 2/29 queries in 1.265 seconds using apc
-Object Caching 1939/2155 objects using apc
+Database Caching 39/41 queries in 0.012 seconds using apc
+Object Caching 1937/2028 objects using apc
 Content Delivery Network via resources.cloud.genuitec.com
 
- Served from: www.genuitec.com @ 2015-05-29 09:01:18 by W3 Total Cache -->
+ Served from: www.genuitec.com @ 2015-05-31 02:09:21 by W3 Total Cache -->

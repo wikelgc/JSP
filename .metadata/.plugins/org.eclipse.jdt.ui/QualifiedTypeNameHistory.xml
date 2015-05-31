@@ -7,6 +7,6 @@
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="com.yxq.valuebean.GoodsSingle"/>
 <fullyQualifiedTypeName name="com.yxq.valuebean.Mytools"/>
+<fullyQualifiedTypeName name="com.yxq.valuebean.GoodsSingle"/>
 </qualifiedTypeNameHistroy>

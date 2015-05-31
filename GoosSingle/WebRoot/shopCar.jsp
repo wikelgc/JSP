@@ -1,19 +1,11 @@
-
-<%@
-	page contentType="text/html; charset=utf-8"  
-	import = "java.util.ArrayList"
-	import = "com.yxq.valuebean.GoodsSingle"
-	import = "con.yxq.toolbean.shopCar"
-%>
-<!--annotations:注释，注解 -->
+<%@page contentType="text/html;charset=utf-8"  %>
+<%@page	import = "java.util.ArrayList"%>
+<%@page	import = "com.yxq.valuebean.GoodsSingle"%>
 <jsp:useBean id = "myCar" class = "com.yxq.toolbean.shopCar"  scope = "session"/>
-
 <%
 	ArrayList buylist = myCar.getBuylist();
 	float total = 0;
  %>
-<html>
-<body>
 <table border = "1" width= "450" rules = "none" cellspacing = "0" cellpadding = "0">
 	<tr height = "50">
 		<td colspan = "5" align = "center">购买的商品如下</td>
@@ -28,7 +20,7 @@
 	
 	<% if(buylist == null || buylist.size()==0){%>
 	<tr height = "100">
-		<td colspan = "5" align = "center">你的购物车</td>
+		<td colspan = "5" align = "center">你的购物车为空</td>
 	</tr>
 	
 	<%
@@ -50,7 +42,7 @@
 		<td><%=num %></td>
 		<td><%=money %></td>
 		<td>
-			<a href = "docar.jsp? action = remove & name = <%= single.getName() %>">移除</a>
+			<a href = "docar.jsp?  &action=remove&name=<%=single.getName()%>" >移除</a>
 		</td>
 	</tr>
 	<%
@@ -63,10 +55,9 @@
 	 
 	 <tr height = "50" align = center>
 	 	<td colspan = "2"><a href = "show.jsp">继续购物</a></td>
-	 	<td colspan = "3"><a href = "docar.jsp? action = clear">清空购物车</a></td>
+	 	<td colspan = "3"><a href = "docar.jsp? &action=clear">清空购物车</a></td>
 	 </tr>
 </table>
-</body>
-</html>
+
 
 	 

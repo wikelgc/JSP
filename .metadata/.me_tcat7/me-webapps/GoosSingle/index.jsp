@@ -7,7 +7,7 @@
 <%!
 	static ArrayList goodsList = new ArrayList();
 	static{
-		String names[] = {"苹果","香蕉","梨","橘子"};
+		String names[] = {"apple","banana","pear","tangerine"};
 		float prices[] = {2.8f,3.1f,2.5f,2.3f};
 		for(int i=0;i<4;i++){
 			//定义一个goodsingle类的对象来封装商品信息

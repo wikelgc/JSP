@@ -1,0 +1,39 @@
+<%@
+	page contentType="text/html; charset=utf-8"  
+	import = "java.util.ArrayList"
+	import = "com.yxq.valuebean.GoodsSingle"
+	import = "com.yxq.toolbean.Mytools"
+	import = "com.yxq.toolbean.shopCar"
+%>
+<jsp:useBean id = "myCar" class = "com.yxq.toolbean.shopCar"  />
+
+<%
+	String action = request.getParameter("action");
+	if(action == null){
+		action =" ";
+	}
+	if(action=="buy"){
+	    ArrayList goodslist = (ArrayList)session.getAttribute("goodslist");
+		int id = Mytools.strToint(request.getParameter("id"));
+		GoodsSingle single = (GoodsSingle)goodslist.get(id);
+		myCar.addIten(single);
+		response.sendRedirect("Myjsp.jsp");
+		System.out.println("buy");
+	}	
+	else if(action.equals("remove")){
+		String name = request.getParameter("name");
+		myCar.removeTtem(name);
+		response.sendRedirect("shopcar.jsp");
+		System.out.println("remove");
+	}
+	else if(action.equals("clear")){
+		//System.out.println("clear");
+		myCar.clearCar();	
+		response.sendRedirect("shopcar.jsp");
+		
+	}
+	else{
+		response.sendRedirect("show.jsp");
+		System.out.println("none");
+	}
+ %>

@@ -1,9 +1,6 @@
-<%@
-	page contentType="text/html; charset=utf-8"  
-	import = "java.util.ArrayList"
-	import = "com.yxq.valuebean.GoodsSingle"
-%>
-<!--annotations:注释，注解 -->
+<%@page contentType="text/html;charset=utf-8"%>  
+<%@page	import = "java.util.ArrayList"%>
+<%@page	import = "com.yxq.valuebean.GoodsSingle"%>
 <% ArrayList goodslist = (ArrayList)session.getAttribute("goodslist"); %>
 
 <html>
@@ -35,10 +32,8 @@
 		 	<tr height = "50" align = "center">
 				<td><%=single.getName()%></td>
 				<td><%=single.getPrice() %></td>
-				<td><%=single.getNum() %></td>
-				<td><a href = "docar.jsp? action = buy&id =<%=i %>">购买</a></td>
-			</tr>
-			
+				<td><a href = "docar.jsp? &action=buy&id=<%=i%>">购买</a></td>
+			</tr>	
 			<%
 					}
 				}
@@ -46,7 +41,7 @@
 			 
 			 <tr height = "50">
 			 	<td align = "center" colspan="3">
-			 		<a href = "shopcar.jsp">查看购物车</a>
+			 		<a href = "shopCar.jsp">查看购物车</a>
 			 	</td>
 			 </tr>
 		</table>

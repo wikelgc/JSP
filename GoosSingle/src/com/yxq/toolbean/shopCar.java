@@ -1,6 +1,8 @@
-package com.yxq.valuebean;
+package com.yxq.toolbean;
 
 import java.util.ArrayList;
+
+import com.yxq.valuebean.GoodsSingle;
 
 public class shopCar {
 	//定义动态数组类型的购物车
@@ -21,12 +23,12 @@ public class shopCar {
 				temp.setPrice(single.getPrice());
 				temp.setNum(single.getNum());
 				
-				buyList.add(temp);
+				buyList.add(temp);                                                                                         
 			}
 			else{
 				int i = 0;
 				//遍历buylist集合对象，判断该集合是否已经存在当前要添加的商品
-				for(;i<buyList.size();i++){
+				for(i=0;i<buyList.size();i++){
 					//获取buylist集合中的当前元素
 					GoodsSingle temp = (GoodsSingle)buyList.get(i);
 					if(temp.getName().equals(single.getName())){
@@ -56,7 +58,7 @@ public class shopCar {
 			GoodsSingle temp = (GoodsSingle)buyList.get(i);
 			if(temp.getName().equals(Mytools.toChinese(name))){
 				if(temp.getNum()>1){
-					temp.setNum(temp.getNum());
+					temp.setNum(temp.getNum()-1);
 					break;
 				}
 				else if (temp.getNum() == 1){
