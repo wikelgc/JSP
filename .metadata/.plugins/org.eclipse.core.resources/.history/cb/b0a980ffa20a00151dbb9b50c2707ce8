@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>WordServlet</servlet-name>
+		<servlet-class>com.yxq.servlet.WordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WordServlet</servlet-name>
+		<url-pattern>/addWord</url-pattern>
+	</servlet-mapping>
+</web-app>

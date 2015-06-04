@@ -128,7 +128,7 @@
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
         -->
 
-      <Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\FirstJsp" path="/FirstJsp" reloadable="false" source="org.eclipse.jst.jee.server:FirstJsp"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\chapter_four" path="/chapter_four" reloadable="false" source="org.eclipse.jst.jee.server:chapter_four"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\GoosSingle" path="/GoosSingle" reloadable="false" source="org.eclipse.jst.j2ee.server:GoosSingle"/></Host>
+      <Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\FirstJsp" path="/FirstJsp" reloadable="false" source="org.eclipse.jst.jee.server:FirstJsp"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\chapter_four" path="/chapter_four" reloadable="false" source="org.eclipse.jst.jee.server:chapter_four"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\GoosSingle" path="/GoosSingle" reloadable="false" source="org.eclipse.jst.j2ee.server:GoosSingle"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\ZhuCe" path="/ZhuCe" reloadable="false" source="org.eclipse.jst.jee.server:ZhuCe"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\messageBoard" path="/messageBoard" reloadable="false" source="org.eclipse.jst.jee.server:messageBoard"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\HTML5_from" path="/HTML5_from" reloadable="false" source="org.eclipse.jst.jee.server:HTML5_from"/><Context docBase="E:\github\JSP\.metadata\.me_tcat7\me-webapps\yuangong" path="/yuangong" reloadable="false" source="org.eclipse.jst.jee.server:yuangong"/></Host>
     </Engine>
   </Service>
 </Server>

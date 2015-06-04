@@ -1,0 +1,18 @@
+<html>					
+<head>					
+<title>script_eventform_01</title>
+	<script language="JavaScript">	
+		function show(){		// 定义函数文本框
+var value = document.myform.name.value ;      // 取得输入的内容
+	alert("输入的内容是：" + value) ;			
+		}
+	</script>
+</head>					
+<body>					
+<form action="" method="post" name="myform" onsubmit = "show">  <!-- 表单开始标记 -->
+username:<input type="text" name="name"><br>
+password:<input type="text" name="password"><br>		
+<input type="submit" value="登入">
+</form>					
+</body>					
+</html>	

@@ -6,6 +6,10 @@
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
+	<section name="NewXmlCreationWizardPage">
+		<item value="Default XML template" key="templatezh_CN"/>
+		<item value="/messageBoard/WebRoot" key="filePath"/>
+	</section>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="JavaElementSearchActions">
@@ -37,11 +41,28 @@
 		<item value="false" key="RemoveFinal"/>
 		<item value="false" key="SortOrdering"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="199" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="669" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="NewHtmlCreationWizardPage">
+		<item value="Default HTML template" key="templatezh_CN"/>
+		<item value="/messageBoard/WebRoot/WEB-INF" key="filePath"/>
+		<item value="HTML 5" key="doctype"/>
+	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/GoosSingle/WebRoot" key="filePath"/>
+		<item value="/messageBoard/WebRoot" key="filePath"/>
 	</section>
 </section>

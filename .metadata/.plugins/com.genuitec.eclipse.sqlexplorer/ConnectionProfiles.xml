@@ -2,6 +2,38 @@
     <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
         <activate>false</activate>
         <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-6a396373:14db86ac2d9:-7f24</string>
+        </driverIdentifier>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-6a396373:14db86ac2d9:-7f47</string>
+        </identifier>
+        <name>hao</name>
+        <password encryption="true"/>
+        <promptForPassword>true</promptForPassword>
+        <schema Indexed="true"/>
+        <schemaDisplayPolicy>0</schemaDisplayPolicy>
+        <url>jdbc:mysql://localhost:3306/music</url>
+        <userName>root</userName>
+    </Bean>
+    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
+        <activate>false</activate>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-6a396373:14db86ac2d9:-7f94</string>
+        </driverIdentifier>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-6a396373:14db86ac2d9:-7fd9</string>
+        </identifier>
+        <name>00</name>
+        <password encryption="true"/>
+        <promptForPassword>true</promptForPassword>
+        <schema Indexed="true"/>
+        <schemaDisplayPolicy>0</schemaDisplayPolicy>
+        <url>jdbc:mysql://Mysql@localhost:3306/</url>
+        <userName>root</userName>
+    </Bean>
+    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
+        <activate>false</activate>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
             <string>60aeb110:14cfada2030:-7fde</string>
         </driverIdentifier>
         <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">

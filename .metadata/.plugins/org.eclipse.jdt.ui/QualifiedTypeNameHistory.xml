@@ -3,10 +3,24 @@
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.yxq.valuebean.Mytools"/>
 <fullyQualifiedTypeName name="com.yxq.valuebean.GoodsSingle"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.yxq.servlet.WordServlet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.yxq.valuebeen.WordSingle"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+<fullyQualifiedTypeName name="com.yxq.toolbean.MyTools"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

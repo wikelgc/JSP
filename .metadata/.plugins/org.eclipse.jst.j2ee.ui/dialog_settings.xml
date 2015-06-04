@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="MRU_RUNTIME_STORE">
+		<item value="com.genuitec.runtime.generic.jee60"/>
+		<item value="com.genuitec.runtime.generic.jee50"/>
 		<item value="com.genuitec.runtime.generic.j2ee13"/>
 	</list>
 </section>

@@ -1,5 +1,9 @@
 #Tomcat publish data
-#Sun May 31 15:43:41 CST 2015
+#Thu Jun 04 18:37:48 CST 2015
+org.eclipse.jst.jee.server\:HTML5_from=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\HTML5_from
+org.eclipse.jst.jee.server\:messageBoard=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\messageBoard
+org.eclipse.jst.jee.server\:yuangong=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\yuangong
 org.eclipse.jst.jee.server\:chapter_four=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\chapter_four
+org.eclipse.jst.jee.server\:ZhuCe=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\ZhuCe
 org.eclipse.jst.j2ee.server\:GoosSingle=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\GoosSingle
 org.eclipse.jst.jee.server\:FirstJsp=E\:\\github\\JSP\\.metadata\\.me_tcat7\\me-webapps\\FirstJsp

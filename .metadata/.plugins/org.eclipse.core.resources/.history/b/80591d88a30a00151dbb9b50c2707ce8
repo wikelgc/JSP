@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Contact Form</title> 
+    <link rel="stylesheet" media="screen" href="styles.css" rel="external nofollow"  >
+
+</head>
+<body>
+
+	<form class="contact_form" action="addWord" method="post" name="contact_form">
+		<ul>
+    		<li> 
+         		<h2>联系我们</h2>
+         		<span class="required_notification">* 表示必填项</span>
+    		</li>
+   			<li>
+       			 <label for="name">姓名:</label>
+         		 <input type="text" name="name" placeholder="Javin"  required/>
+    		</li>
+    		
+	    	<li>
+			    <label for="title">标题:</label>
+			    <input type="text" name="text" required />
+			</li>
+
+			<li>
+			    <label for="message">留言:</label>
+			    <textarea name="message" cols="40" rows="6" required ></textarea>
+			</li>
+			<li>
+			     <button class="submit" type="submit">提交</button>
+			     <button class="submit" type="reset">重置</button>
+   				 <a href = "show.jsp">查看留言</a>
+			</li>	
+		</ul>
+	</form>
+
+</body>
+</html>
