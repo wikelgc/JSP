@@ -2,49 +2,17 @@
     <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
         <activate>false</activate>
         <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-6a396373:14db86ac2d9:-7f24</string>
+            <string>5d4a66d:14dbdfc8146:-7f8c</string>
         </driverIdentifier>
         <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-6a396373:14db86ac2d9:-7f47</string>
+            <string>5d4a66d:14dbdfc8146:-7fd2</string>
         </identifier>
-        <name>hao</name>
-        <password encryption="true"/>
-        <promptForPassword>true</promptForPassword>
+        <name>music</name>
+        <password encryption="true">U6gh0GaqlQc=</password>
+        <promptForPassword>false</promptForPassword>
         <schema Indexed="true"/>
         <schemaDisplayPolicy>0</schemaDisplayPolicy>
         <url>jdbc:mysql://localhost:3306/music</url>
         <userName>root</userName>
-    </Bean>
-    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
-        <activate>false</activate>
-        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-6a396373:14db86ac2d9:-7f94</string>
-        </driverIdentifier>
-        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>-6a396373:14db86ac2d9:-7fd9</string>
-        </identifier>
-        <name>00</name>
-        <password encryption="true"/>
-        <promptForPassword>true</promptForPassword>
-        <schema Indexed="true"/>
-        <schemaDisplayPolicy>0</schemaDisplayPolicy>
-        <url>jdbc:mysql://Mysql@localhost:3306/</url>
-        <userName>root</userName>
-    </Bean>
-    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
-        <activate>false</activate>
-        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>60aeb110:14cfada2030:-7fde</string>
-        </driverIdentifier>
-        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
-            <string>60aeb110:14cfada2030:-7fdd</string>
-        </identifier>
-        <name>MyEclipse Derby</name>
-        <password encryption="true">gFOjO/OmrJ8m4/rtM2cMIw==</password>
-        <promptForPassword>false</promptForPassword>
-        <schema Indexed="true"/>
-        <schemaDisplayPolicy>0</schemaDisplayPolicy>
-        <url>jdbc:derby://localhost:1527/myeclipse</url>
-        <userName>classiccars</userName>
     </Bean>
 </Beans>

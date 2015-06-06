@@ -1,0 +1,50 @@
+<%@ page contentType="text/html" pageEncoding="GBK"%>
+<%@ page import="java.sql.*"%>
+<html>
+<head><title>jsp列出emp表数据</title></head>
+<body>
+<%
+    request.setCharacterEncoding("GBK");
+    String delete_pno = request.getParameter("delete_empno");
+    out.println(delete_pno);
+%>
+    <h1>删除成功</h1>
+<%!
+	public static final String DBDRIVER = "com.mysql.jdbc.Driver" ;
+	public static final String DBURL = "jdbc:mysql://localhost:3306/music" ;
+	public static final String DBUSER = "root" ;
+	public static final String DBPASS = "root" ;
+	
+%>
+<%!
+	Connection conn = null ;
+	PreparedStatement pstmt = null ;
+
+%>	
+
+
+<%
+try{
+	Class.forName(DBDRIVER);
+	conn = DriverManager.getConnection(DBURL,DBUSER,DBPASS) ;
+	String sql = "delete  FROM emp where empno ='"+delete_pno+"'";
+	pstmt = conn.prepareStatement(sql) ;
+	int rs = pstmt.executeUpdate();
+%>
+ <form  action="findEmp.jsp"  method="post">
+   请输入要查询的雇员名字：<input type="text" name="find_ename">
+  <input type="submit" value="查询" ></form> 
+
+<%
+}catch(Exception e)	{
+	System.out.println(e) ;
+}finally{
+	//rs.close() ;
+	//pstmt.close() ;
+	conn.close() ;
+}
+%>
+<a href="index.jsp">返回主页</a>
+
+</body>
+</html>

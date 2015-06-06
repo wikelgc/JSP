@@ -63,6 +63,6 @@
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/messageBoard/WebRoot" key="filePath"/>
+		<item value="/yuangong/WebRoot" key="filePath"/>
 	</section>
 </section>
