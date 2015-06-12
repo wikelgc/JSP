@@ -12,12 +12,28 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Thu, 04 Jun 2015 08:41:39 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Jun 2015 12:37:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=4.2.2</generator>
 	<item>
+		<title>Coding is for everyone! and Genuitec gets it!</title>
+		<link>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/</link>
+		<comments>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/#comments</comments>
+		<pubDate>Tue, 09 Jun 2015 23:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=392517</guid>
+		<description><![CDATA[<p>Recently the coding life and world of developers has in [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/">Coding is for everyone! and Genuitec gets it!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/coding-is-for-everyone-and-genuitec-gets-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>MyEclipse Genuitec Chat &#8211; Recap June 2nd</title>
 		<link>https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/</link>
 		<comments>https://www.genuitec.com/myeclipse-genuitec-chat-recap-june-2nd/#comments</comments>
@@ -275,34 +291,14 @@
 		<wfw:commentRss>https://www.genuitec.com/myeclipse-twitter-chat/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>Team Extensions by WebPad &#8211; Something New for Web Development</title>
-		<link>https://www.genuitec.com/team-extensions-by-webpad/</link>
-		<comments>https://www.genuitec.com/team-extensions-by-webpad/#comments</comments>
-		<pubDate>Thu, 16 Apr 2015 17:21:54 +0000</pubDate>
-		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
-				<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[WebPad]]></category>
-		<category><![CDATA[Brackets]]></category>
-		<category><![CDATA[extensions for Brackets]]></category>
-		<category><![CDATA[Team Extensions]]></category>
-		<category><![CDATA[Web Development]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=36119</guid>
-		<description><![CDATA[<p>Genuitec is cooking up something new for web developmen [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/team-extensions-by-webpad/">Team Extensions by WebPad &#8211; Something New for Web Development</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		<wfw:commentRss>https://www.genuitec.com/team-extensions-by-webpad/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using disk: enhanced
-Database Caching 19/43 queries in 0.030 seconds using apc
-Object Caching 1913/2008 objects using apc
+Database Caching 2/44 queries in 0.045 seconds using apc
+Object Caching 1904/2001 objects using apc
 Content Delivery Network via resources.cloud.genuitec.com
 
- Served from: www.genuitec.com @ 2015-06-04 04:52:59 by W3 Total Cache -->
+ Served from: www.genuitec.com @ 2015-06-12 07:40:48 by W3 Total Cache -->

@@ -21,6 +21,8 @@ E:\github\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1440246488.i
 \GoosSingle\src
 E:\github\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1687763438.index
 \yuangong\src
+E:\github\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2791712189.index
+\yuangongguanli_DAO\src
 E:\github\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3565787478.index
 \GoosSingle\src
 E:\github\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3713235065.index

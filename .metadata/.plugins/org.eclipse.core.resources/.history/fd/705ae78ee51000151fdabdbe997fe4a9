@@ -1,0 +1,5 @@
+package cn.mldn.lxh.dao.impl;
+
+public class EmpDAOImpl {
+
+}

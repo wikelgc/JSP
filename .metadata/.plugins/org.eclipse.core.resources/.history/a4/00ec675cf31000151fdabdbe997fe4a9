@@ -1,0 +1,56 @@
+package cn.mldn.lxh.vo;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class Emp {
+	private String empno;
+	private String ename;
+	private String job;
+	private Date hiredate;
+	private float sal;
+	
+	//构造方法
+	public Emp(String empno,String ename,String job,String sal,String hiredate) throws ParseException{
+		setEmpno(empno);
+		setEname(ename);
+		setHiredate(hiredate);
+		setJob(job);
+		setSal(sal);	
+	}
+	public String getEmpno() {
+		return empno;
+	}
+	public void setEmpno(String empno) {
+		this.empno = empno;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public Date getHiredate() {
+		return hiredate;
+	}
+	public void setHiredate(String  hiredate) throws ParseException {
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");//小写的mm表示的是分钟    
+		java.util.Date date=sdf.parse(hiredate);  
+		this.hiredate = date;
+	}
+	public float getSal() {
+		return sal;
+	}
+	public void setSal(String sal) {
+		
+		float s=Float.parseFloat(sal);
+		this.sal = s;
+	}
+	public String getJob() {
+		return job;
+	}
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+}
+

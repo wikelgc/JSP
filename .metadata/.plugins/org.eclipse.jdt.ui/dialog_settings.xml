@@ -10,24 +10,9 @@
 		<item value="Default XML template" key="templatezh_CN"/>
 		<item value="/messageBoard/WebRoot" key="filePath"/>
 	</section>
-	<section name="completion_proposal_size">
-	</section>
-	<section name="JavaElementSearchActions">
-	</section>
-	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item value="726" key="DIALOG_WIDTH"/>
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
-		<item value="606" key="DIALOG_X_ORIGIN"/>
-		<item value="889" key="DIALOG_HEIGHT"/>
-		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
-	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="400" key="height"/>
 		<item value="600" key="width"/>
-	</section>
-	<section name="NewClassWizardPage">
-		<item value="false" key="create_constructor"/>
-		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -37,9 +22,7 @@
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
-	<section name="AddGetterSetterDialog">
-		<item value="false" key="RemoveFinal"/>
-		<item value="false" key="SortOrdering"/>
+	<section name="BreadcrumbItemDropDown">
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item value="true" key="ShowStatusLine"/>
@@ -53,16 +36,35 @@
 			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="726" key="DIALOG_WIDTH"/>
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+		<item value="606" key="DIALOG_X_ORIGIN"/>
+		<item value="889" key="DIALOG_HEIGHT"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="RemoveFinal"/>
+		<item value="false" key="SortOrdering"/>
+	</section>
 	<section name="NewHtmlCreationWizardPage">
 		<item value="Default HTML template" key="templatezh_CN"/>
 		<item value="/messageBoard/WebRoot/WEB-INF" key="filePath"/>
 		<item value="HTML 5" key="doctype"/>
 	</section>
-	<section name="NewPackageWizardPage">
-		<item value="false" key="create_package_info_java"/>
-	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/yuangong/WebRoot" key="filePath"/>
+		<item value="/yuangongguanli_DAO/WebRoot" key="filePath"/>
 	</section>
 </section>

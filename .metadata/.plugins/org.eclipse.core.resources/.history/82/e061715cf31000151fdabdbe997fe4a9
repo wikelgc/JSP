@@ -1,0 +1,57 @@
+<%@ page contentType="text/html" pageEncoding="GBK"%>
+<%@page import="cn.mldn.lxh.dao.impl.*,cn.mldn.lxh.vo.*,cn.mldn.lxh.dao.*" %>
+<%@page  import="java.util.*"%>
+<%@page  import="java.text.*"%>
+<html>
+  <head>
+    <title>emp_list.jsp</title>
+    <%
+   request.setCharacterEncoding("GBK");
+   
+   String empno = request.getParameter("empno");
+   if(empno == null) empno = "";
+   out.println(empno);
+   
+   String ename = request.getParameter("ename");
+   if(ename == null) ename = "";
+   out.println(ename);
+   
+   String job = request.getParameter("job");
+   if(job == null) job = "";
+   out.println(job);
+   
+   String sal = request.getParameter("sal");
+   if(sal == null) sal = "";
+   out.println(sal);
+   
+   String date = request.getParameter("date");
+   out.println(date); 
+    %>
+  </head>
+  
+  <body>
+  <h1>删除管理</h1>
+ 
+  <%
+  try{
+       //Emp emp = new Emp(empno,ename,job,sal,date);
+       Emp emp = new Emp();
+       IEmpDAO  EDAO= new EmpDAOImpl();
+       boolean a = EDAO.doRemove(empno);
+       
+       if(a == true )
+       		%>删除成功！<% 
+       else %>删除失败<% 
+       
+  %>
+   
+
+  <%
+  }catch(Exception e){
+  
+  e.printStackTrace();
+  }
+   %>
+   <a href="index.jsp?">返回主页</a>
+  </body>
+</html>
